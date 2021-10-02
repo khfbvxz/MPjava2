@@ -12,7 +12,12 @@ package ClassExam;
  * this()는 반드시 생성자 코드에서만 호출 할 수 있다.
  * this()는 반드시 같은 클래스 내 생성자를 호출할 때 사용
  * this()는 반드시 생서자의 첫번재 문장이 되어야 한다.!!
+ * 
  */
+
+// this 와 this() 차이점 
+// this 는 현재 실행되는 메소드가 속한 객체애 대한 레퍼런스이고 
+// this() 는 클래스의 생성자에서 다른 생성자를 호출할 때 사용!
 public class Book {
 	String title;
 	String author;
