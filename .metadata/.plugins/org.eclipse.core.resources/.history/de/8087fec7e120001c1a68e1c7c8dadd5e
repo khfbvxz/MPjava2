@@ -1,0 +1,11 @@
+package op;
+
+public class 시프트연산자 {
+	public static void main(String[] args) {
+		
+		byte x = 00000011; 
+		int y = 1 ;
+		System.out.println(x * 2);// 00000011 
+		System.out.println(x << x);
+	}
+}

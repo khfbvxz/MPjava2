@@ -1,0 +1,12 @@
+package bit;
+
+public class FinalExam1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		double pi = 3.141592;
+		pi = 8;
+		System.out.println(pi);
+	}
+
+}

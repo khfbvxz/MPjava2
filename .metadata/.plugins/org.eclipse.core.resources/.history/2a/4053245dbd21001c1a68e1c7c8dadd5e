@@ -1,0 +1,19 @@
+package 조건문;
+/**
+ * if 문 스러운 것 
+ * @author yuhwan
+ *
+ */
+public class SwitchCaseExam1 {
+	public static void main(String[] args) {
+		switch (key) {
+		case value:
+			
+			break;
+
+		default:
+			break;
+		}
+		
+	}
+}

@@ -1,0 +1,56 @@
+package homework;
+
+public class NanSu {
+
+	public static void main(String[] args) {
+		// 
+		int num1;
+		char op;
+		int num2;
+		
+		char [] ops= {'+','-','*','/','%'};
+					//0   1   2   3   4 
+		//난수 
+		num1 = (int)(Math.random()*10);
+		num2 = (int)(Math.random()*10);
+		
+		for (int i =1 ; i<=40; i++) {
+			int x =(int)(Math.random()*5);
+			System.out.println(x);
+		}
+	}
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

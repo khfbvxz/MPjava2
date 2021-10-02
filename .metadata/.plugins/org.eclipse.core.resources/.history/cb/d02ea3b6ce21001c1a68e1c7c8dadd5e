@@ -1,0 +1,22 @@
+package 조건문;
+
+import java.util.Scanner;
+
+/*
+ * 수 1 , 연산자 , 수 2는 난수입니다.
+ * 
+ */
+public class ISub6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		System.out.println("입력:");
+		int q = scan.nextInt();
+		
+		System.out.println(q);
+		
+
+	}
+
+}

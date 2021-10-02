@@ -1,0 +1,18 @@
+package bit;
+
+public class Exam8 {
+	public static void main(String[] args) {
+	
+		for(int re =1 ; re<=8 ; re+=2) {//4번
+			for(int count=1 ; count<=9;count++) {
+//				for(int dan=2 ; dan<=3 ; dan++) {
+				for(int dan=re ; dan<=3 ; dan++) {
+					System.out.printf("%3d ==> %3d X%2d =%3d",re,dan,count,(dan*count));
+				}//for dan
+				System.out.println();
+			}//for count
+			
+		}//for re
+	
+	}
+}

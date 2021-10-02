@@ -1,0 +1,25 @@
+package bit;
+
+public class PrintfExam {
+
+	public static void main(String[] args) {
+		//1번
+		int a = 3456678;
+		System.out.printf("%,d",a);
+		System.out.println();
+		//2 번 2021 - 09- 30
+		int y = 2021;
+		int m = 9;
+		int d = 30;
+		System.out.printf("%4d-%02d-%2d",y,m,d);
+		
+		
+		System.out.println();
+		
+		//3번 qjs Math.PI ==> 3.14
+		System.out.printf("%.2f",Math.PI);
+		
+
+	}
+
+}

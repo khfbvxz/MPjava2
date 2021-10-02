@@ -1,0 +1,26 @@
+package homework;
+/**
+ * printf 사용
+ * @author yuhwan
+ *
+ */
+public class Exam1 {
+	public static void main(String[] args) {
+		//1번.
+		int num1 = 3456678;
+		System.out.printf("%,12d %n",num1);
+		
+		String s = String.format("%,12d\n", num1);
+		System.out.print(num1+"==>"+s);
+		
+		System.out.printf("%12d == > %,12d\n",num1,num1);
+		System.out.printf("%1$12d == > %1$,12d\n",num1);
+		
+		// 년 월 일
+		int year = 2021;
+		int month = 9 ; 
+		int day = 30;
+		System.out.printf("%d-%02d-%d\n",year,month,day);
+				
+	}
+}

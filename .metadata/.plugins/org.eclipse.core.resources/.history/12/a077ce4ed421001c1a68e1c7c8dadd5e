@@ -1,0 +1,53 @@
+package 조건문;
+
+import java.util.Scanner;
+import java.util.Random;
+import java.lang.Math;
+
+/*
+ * 수 1 , 연산자 , 수 2는 난수입니다.
+ * 
+ */
+public class ISub6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		Random random = new Random();
+		// 난수 0~9 까지 생성할 것
+//		game: while (true) {
+			String op = "+-*/";
+			int num1 = (int) (random.nextDouble() * 10);
+			int num2 = (int) (random.nextDouble() * 10);
+			char opp = op.charAt(random.nextInt(4));
+			int result = 0;
+			switch (opp) {
+			case '+':
+				result = num1 + num2;
+				break;
+			case '-':
+				result = num1 - num2;
+				break;
+			case '*':
+				result = num1 * num2;
+				break;
+			case '/':
+				result = num1 / num2;
+				break;
+			}
+
+//		if 
+			while (true) {
+				System.out.print(num1 + " " + opp + " " + num2 + "? ");
+				int q = scan.nextInt();
+				if (result == q) {
+					System.out.println("천재");
+					
+
+				}
+
+			}
+//		}//game end
+	}//main end
+
+}

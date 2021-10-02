@@ -1,0 +1,13 @@
+package 조건문;
+/*
+ * 수 1 , 연산자 , 수 2는 난수입니다.
+ * 
+ */
+public class ISub6 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

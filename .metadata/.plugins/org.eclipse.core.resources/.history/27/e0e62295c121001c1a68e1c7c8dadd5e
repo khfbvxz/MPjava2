@@ -1,0 +1,52 @@
+package 조건문;
+
+import java.util.Scanner;
+public class IfExam5_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char gender = 'm';
+//		String msg = ((gender=='f'||gender=='F'))? "여자":((gender=='m'||gender=='M'))?"남자":"입력오류";
+//		System.out.println(msg);
+		
+		//5번
+//		char gender2 = 'f';
+//		switch (gender2) {
+//		case 'M':
+//			System.out.println("남자");
+//			break;
+//		case 'm':
+//			System.out.println("남자");
+//			break;
+//		case 'F':
+//			System.out.println("여자");
+//			break;
+//		case 'f':
+//			System.out.println("여자");
+//			break;
+//			
+//		default:
+//			System.out.println("입력오류");
+//			break;
+//		}
+		Scanner scanner = new Scanner(System.in);
+		
+		int grade = scanner.nextInt();
+		
+		if(grade>=90 || grade <100) {
+			System.out.println("A");
+		}else if(grade>=80 || grade <90) {
+			System.out.println("B");
+		}else if(grade>=70 || grade <80) {
+			System.out.println("C");
+		}else if(grade>=60 || grade <70) {
+			System.out.println("D");
+		}else if(grade>=0 || grade <60) {
+			System.out.println("F");
+		}else {
+			System.out.println("점수 다시 입력하세요");
+		}
+		scanner.close();
+	}
+
+}

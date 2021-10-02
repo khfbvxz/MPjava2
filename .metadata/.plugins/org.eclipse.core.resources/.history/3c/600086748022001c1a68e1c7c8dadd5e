@@ -1,0 +1,27 @@
+package homework;
+
+
+import java.util.Scanner;
+
+public class IfExam5Switch {
+	public static void main(String[] args) {
+		
+		char gender = 'x';
+		String msg = "입력오류";
+		switch (gender) {
+		case 'f':case 'F':
+			msg="여자";
+			break;
+		case 'M':case 'm':
+			msg="남자";
+			break;	
+		
+		}
+		
+		System.out.println("문자"+gender+ " : "+ msg);
+		
+		
+		
+				
+	}
+}

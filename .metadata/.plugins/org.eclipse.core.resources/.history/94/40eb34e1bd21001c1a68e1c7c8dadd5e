@@ -1,0 +1,12 @@
+package 조건문;
+
+public class IfExam5_2 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char gender = 'x';
+		String msg = ((gender=='f'||gender=='F'))? "여자":(gender=='m'||gender=='M'))?"남자":"입력오류";
+		System.out.println(msg);
+	}
+
+}

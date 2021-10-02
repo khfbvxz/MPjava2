@@ -1,0 +1,13 @@
+package array;
+
+public class Exam4 {
+	public static void main(String[] args) {
+		//2x3
+		int [][] nums = new int [2][];
+		nums[0][0] = 123;
+		nums[0][1] = 33;
+		nums[0][2] = 7;
+		nums[0][3] = 99;
+		
+	}
+}
