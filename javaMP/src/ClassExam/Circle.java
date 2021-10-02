@@ -5,7 +5,7 @@ public class Circle {
 	public int radius ; // 원의 반지름 필드    필드(변수)
 	public String name; // 원의 이름 필드
 	
-	// 생성자의 이름은 클래스의 이름과 같게  ## 생성자 개념과 목적
+	// 생성자의 이름은 클래스의 이름과 같게  
 	// 생성자는 여러개 작성(오버로딩) 가능
 	// 생성자에 리턴타입 지정할수 없음!!!  void를 리턴타입으로 사용할 수 없읍!!
 	// public void Circle() {...} 
