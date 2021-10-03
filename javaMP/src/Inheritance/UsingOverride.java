@@ -5,18 +5,18 @@ public class UsingOverride {
 		Shape start, last, obj;
 		
 		//링크드 리스트로 도형 생성하여 연결
-		start = new Line();
+		start = new Line();  // line 객체 연결
 		last = start;
 		
-		obj = new Rect();
+		obj = new Rect();   // rect 객체 연결
 		last.next = obj;
 		last = obj;
 		
-		obj = new Line();
+		obj = new Line(); // line 객체 연결
 		last.next = obj;
 		last = obj;
 		
-		obj = new Circle();
+		obj = new Circle(); // circle 객체 연결 
 		last.next =obj;
 		
 		// 모든 도형 출력
