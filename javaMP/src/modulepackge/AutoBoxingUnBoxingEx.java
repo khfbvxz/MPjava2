@@ -6,7 +6,7 @@ public class AutoBoxingUnBoxingEx {
 		Integer intObject =n ; // 자동 박싱 Integer intObject = Integer.valueOf(10); 
 		System.out.println("intObj = " + intObject );
 		
-		int m =  intObject +10; // 자동 언박싱 int m = te
+		int m =  intObject +10; // 자동 언박싱 int m = intObj.intValue()+10;
 		System.out.println("m = "+m);
 		
 	}
