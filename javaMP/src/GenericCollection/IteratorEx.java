@@ -22,8 +22,7 @@ public class IteratorEx {
 		it = v.iterator();  // it 다시 설정
 		while(it.hasNext()) {
 			int n = it.next();
-			sum += n;
-			
+			sum += n;			
 		}
 		System.out.println(" 벡터 정수 의 합 : " +sum);
 		
