@@ -17,7 +17,6 @@ public class StarA {
 				else{bw.write("*");}
 				bw.flush();
 			}
-
 			bw.write("\n");
 		}
 	}
