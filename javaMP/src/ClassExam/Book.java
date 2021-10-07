@@ -21,7 +21,6 @@ package ClassExam;
 public class Book {
 	String title;
 	String author;
-	
 	void show() { System.out.println(title + " " + author);}
 	// this 로 다른 생성자 호출
 	public Book() {
@@ -33,7 +32,8 @@ public class Book {
 		this(t,"작자미상");
 		
 	}
-	public Book(String t,String a) {// 생성자 
+	public Book(String t,String a) {// 생성자
+//		title =title ;	
 		this.title = t;
 		this.author = a;
 		

@@ -18,6 +18,6 @@ public class MaxBJ2 {
 			}
 		}
 		System.out.println(max);
-		System.out.println(index);
+		System.out.println(index+1);
 	}
 }
