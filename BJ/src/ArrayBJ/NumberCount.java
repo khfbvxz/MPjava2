@@ -10,12 +10,10 @@ public class NumberCount {
 		int c = sc.nextInt();
 		int gob ;
 		gob = a*b*c;
-//		System.out.println(gob);
 		String number = String.valueOf(gob);
 		char[] digit = number.toCharArray();
 		int[] arr = new int[10];
 		for (int i = 0 ; i < digit.length;i++) {
-//			System.out.println(digit[i]);
 			switch (digit[i]) {
 			case '0':arr[0]+=1;break;
 			case '1':arr[1]+=1;break;
