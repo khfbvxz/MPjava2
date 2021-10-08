@@ -18,9 +18,7 @@ public class AvgBJ {
 		for(int i =0 ; i<n ; i++) {
 			avg+=arr[i]/max*100.0;
 		}
-		
-		System.out.println(max);
-		System.out.println(Arrays.toString(arr));
+
 		System.out.println(avg/n);
 	}
 }
