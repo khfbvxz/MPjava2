@@ -5,18 +5,42 @@ import java.util.Scanner;
 
 public class AvgOver {
 	public static void main(String[] args) {
-		System.out.println("hello");
+		
 		Scanner sc = new Scanner(System.in);
 		int c = sc.nextInt();
 		int a = 0;
+		int sum = 0;
+		int count;
 		int[][] arr = new int[c][];
+		double [] avg =new double [c];
 		for(int i = 0 ; i<c ; i++) {
+			sum = 0 ;
 			a = sc.nextInt();
-			arr[i][0]=a;
+			arr[i] = new int [a];
 			for(int j = 0 ; j<a;j++) {
-				arr[i][j+1] = sc.nextInt();
+				arr[i][j] = sc.nextInt();
+				sum+=arr[i][j];
 			}
-		}//for end
-		System.out.println(Arrays.deepToString(arr));
+			avg[i] = (double)sum/(arr[i].length);
+		}//for end  배열 만들기
+//		for(int i = 0 ; i<c ;i++) {
+//			for(int j = 0 ; j<arr[i].length ; j++) {
+//			}
+//		}
+		
+		for(int i = 0 ; i<c ;i++) {
+			count =0;
+			for(int j = 0 ; j<arr[i].length ; j++) {
+				if (arr[i][j] >avg[i]) {
+					++count;
+				}
+			}
+//			System.out.println("count = "+count);
+//			System.out.println("arr[i].length = "+arr[i].length);
+			System.out.printf("%.3f%%\n",(double)count*100/(double)arr[i].length);
+		}
+//		System.out.println(Arrays.toString(avg));
+//		
+//		System.out.println(Arrays.deepToString(arr));
 	}//main end
 }
