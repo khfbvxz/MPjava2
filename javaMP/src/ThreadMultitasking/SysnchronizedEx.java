@@ -17,8 +17,8 @@ public class SysnchronizedEx {
 // 두 StudentThread 스레드에 의해 동시 접근됨!
 class SharedBoard{
 	private int sum = 0 ;// 집계판의 합
-	public void add() {
-//	synchronized public void add() {
+//	public void add() {
+	synchronized public void add() {
 		int n = sum ;
 		Thread.yield();// 현재 실행중인 스레드 양보
 		n+=10; // 10 증가
