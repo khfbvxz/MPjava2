@@ -23,10 +23,6 @@ public class AvgOver {
 			}
 			avg[i] = (double)sum/(arr[i].length);
 		}//for end  배열 만들기
-//		for(int i = 0 ; i<c ;i++) {
-//			for(int j = 0 ; j<arr[i].length ; j++) {
-//			}
-//		}
 		
 		for(int i = 0 ; i<c ;i++) {
 			count =0;
@@ -35,12 +31,9 @@ public class AvgOver {
 					++count;
 				}
 			}
-//			System.out.println("count = "+count);
-//			System.out.println("arr[i].length = "+arr[i].length);
 			System.out.printf("%.3f%%\n",(double)count*100/(double)arr[i].length);
 		}
 //		System.out.println(Arrays.toString(avg));
-//		
 //		System.out.println(Arrays.deepToString(arr));
 	}//main end
 }
